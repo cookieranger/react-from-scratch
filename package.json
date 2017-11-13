@@ -1,12 +1,22 @@
 {
   "name": "react-from-scratch",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://www.youtube.com/watch?v=_MAD4Oly9yg",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --inline --hot"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "babel-preset-es2017": "^6.24.1"
+  }
 }
