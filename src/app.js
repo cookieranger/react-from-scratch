@@ -8,6 +8,7 @@ function component() {
 }
 
 document.body.appendChild(component());
+var Lithium = require('./lithium')
 
 
 class CounterButton extends Dilithium.Component {
